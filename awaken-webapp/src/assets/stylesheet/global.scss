@@ -1,0 +1,93 @@
+@import './variables.scss';
+
+.primary-btn {
+  background-color: $theme-btn-color;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  font-weight: 500;
+  border-radius: 6px;
+}
+.primary-btn:focus {
+  background-color: $theme-btn-color;
+}
+.primary-btn:hover {
+  background-color: $theme-btn-color-hover;
+}
+
+
+.outline-btn {
+  background-color: transparent;
+  color: $theme-btn-color;
+  font-size: 16px;
+  border: 1px solid $theme-btn-color;
+  font-weight: 500;
+  border-radius: 6px;
+}
+
+.outline-btn:focus {
+  background-color: rgba(0, 0, 0, 0.9);
+  color: #fff;
+}
+.outline-btn:hover {
+  background-color: rgba(0, 0, 0, 0.9);
+  color: #fff;
+}
+
+// display
+.flex {
+  display: flex;
+}
+//direction
+.flex-row {
+  flex-direction: row;
+}
+.flex-row-reverse {
+  flex-direction: row-reverse;
+}
+.flex-col {
+  flex-direction: column;
+}
+.flex-col-reverse {
+  flex-direction: column-reverse;
+}
+//wrap
+.flex-wrap {
+  flex-wrap: wrap;
+}
+//align-items
+.items-start {
+  align-items: flex-start;
+}
+.items-center {
+  align-items: center;
+}
+.items-end {
+  align-items: flex-end;
+}
+// justify-content
+.justify-start {
+  justify-content: flex-start;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-end {
+  justify-content: flex-end;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.justify-around {
+  justify-content: space-around;
+}
+.text-white {
+  color: #fff;
+}
+.text-12 {
+  font-size: 12px;
+}
+
+.ant-modal-mask {
+  background: rgba(0, 0, 0, 0.92);
+}

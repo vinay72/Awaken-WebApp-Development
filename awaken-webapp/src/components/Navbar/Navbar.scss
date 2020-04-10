@@ -1,0 +1,220 @@
+@import 'src/assets/stylesheet/variables.scss';
+
+.navbar-container {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  width: 100%;
+  z-index: 100;
+  height: 66px;
+  display: flex;
+  align-items: center;
+  padding: 0 22px;
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.05);
+  background: #fff;
+  justify-content: space-between;
+  .hamburger-icon {
+    display: none;
+    @media (max-width: 1023px) {
+      font-size: 30px;
+      display: block;
+    }
+  }
+  
+  .navbar-left {
+    height: 100%;
+    align-items: center;
+    color: #3e2272;
+    margin-left: 0px;
+    .navbar-links-container {
+      height: 80%;
+      width: 20%;
+      align-items: center;
+      margin-left: 10px;
+      @media (max-width: 1023px) {
+        display: none;
+      }
+      a {
+        margin-right: 0px;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        color: rgba(62, 34, 114, 0.5);
+      }
+      .active {
+        color: #3e2272;
+        &::after {
+          content:"";
+          background: -webkit-linear-gradient(left, #ff8644, #ff5d65);
+          display: block;
+          height: 0px;
+          width: 100%;
+          position: absolute;
+          bottom: 0;
+          border-radius: 10px;
+          left: 4px;
+        }
+      }
+      .navbar-link {
+        // padding-right: 15px;
+        font-size: 14px;
+        .navbar-links-icon {
+          margin-bottom: -2px;
+        }
+      }
+    }
+  }
+  .user-data {
+    display: flex;
+    align-items: center;
+    .user-pill {
+      border-radius: 20px;
+      box-shadow: 0 2px 5px 0 rgba(29, 14, 57, 0.24);
+      display: flex;
+      align-items: center;
+      padding: 3px 6px;
+      margin-right: 12px;
+      cursor: pointer;
+      @media (max-width: 1023px) {
+        margin-right: 0px;
+        box-shadow: 0 2px 5px 0 rgba(29, 14, 57, 0.24);
+      }
+      .user-name {
+        min-width: 140px;
+        color: $theme-color;
+        font-weight: 500;
+        font-size: 14px;
+        @media (max-width: 1023px) {
+          display: none;
+        }
+      }
+      .parent-text {
+        font-size: 10px;
+        color: $theme-color;
+      }
+    }
+    .display-picture {
+      vertical-align: middle;
+      margin-right: 16px;
+      height: 32px;
+      width: 32px;
+      border-radius: 50%;
+      background-color: #eee;
+      @media (max-width: 1023px) {
+        margin-right: 0px;
+      }
+    }
+    .swap-icon {
+      width: 40px;
+      height: 40px;
+      background-color: $theme-color;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      @media (max-width: 1023px) {
+        display: none;
+      }
+    }
+  }
+  .ant-select {
+    div {
+      border: none;
+    }
+  }
+  // .border-none {
+  //   border: none;
+  // }
+  @media (max-width: 1023px) {
+    .user-data {
+      // width: 100%;
+      justify-content: inherit;
+      .user-pill {
+        justify-content: inherit;
+      }
+    }
+    
+  }
+
+  .navbar-overlay {
+    height: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+    & .close-btn {
+      position: absolute;
+      top: 20px;
+      right: 45px;
+      font-size: 60px;
+      color: #818181;
+      cursor: pointer;
+      &:hover {
+        color: #f1f1f1;
+      }
+    }
+    .overlay-content {
+      position: relative;
+      top: 25%;
+      width: 100%;
+      text-align: center;
+      margin-top: 30px;
+      .navbar-links-container {
+        flex-direction: column;
+        height: 100%;
+        a {
+          position: relative;
+          margin-bottom: 15px;
+          color: #818181;
+          &:hover {
+            color: #f1f1f1;
+          }
+        }
+        .navbar-link {
+          // padding-right: 15px;
+          font-size: 30px;
+          .navbar-links-icon {
+            margin-bottom: -2px;
+          }
+        }
+      }
+    }
+  }
+}
+
+// Outside because the element isn't mounted inside the 
+.child-list-container {
+  color: $theme-color;
+  background: #fff;
+  margin-top: 6px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 10px 2px #0000005c;
+  user-select: none;
+}
+.child-list-item {
+  padding: 10px 16px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  img {
+    width: 15px;
+  }
+  .child-image {
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 16px;
+    background: #ddd;
+  }
+}
