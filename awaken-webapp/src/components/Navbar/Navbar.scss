@@ -26,24 +26,24 @@
     height: 100%;
     align-items: center;
     color: #3e2272;
-    margin-left: 0px;
+    margin-left: 10px;
     .navbar-links-container {
-      height: 80%;
-      width: 20%;
+      // height: 80%;
+      // width: 20%;
       align-items: center;
-      margin-left: 10px;
+      margin-left: 20px;
       @media (max-width: 1023px) {
         display: none;
       }
-      a {
-        margin-right: 0px;
-        height: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        position: relative;
-        color: rgba(62, 34, 114, 0.5);
-      }
+      // a {
+      //   margin-right: 0px;
+      //   height: 100%;
+      //   display: flex;
+      //   align-items: center;
+      //   justify-content: center;
+      //   position: relative;
+      //   color: rgba(62, 34, 114, 0.5);
+      // }
       .active {
         color: #3e2272;
         &::after {

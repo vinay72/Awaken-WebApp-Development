@@ -6,6 +6,7 @@ import { AiOutlineSearch } from "react-icons/ai";
 import Logo from "../../images/logo.png";
 import Dropdown from "../Dropdown/Dropdown";
 import Login from "../Login/Login";
+import FreeTrial from "../FreeTrial/FreeTrial";
 class Navbar extends Component {
     constructor(props) {
         super(props);
@@ -76,11 +77,14 @@ class Navbar extends Component {
                         
                         
                     </div>
+                    
                     <div className="navbar-links-container flex">
+                        
+                        <FreeTrial />
+                    </div>
+                    <div className="navbar-links-container flex">
+                        
                         <Login />
-                        
-                        
-
                     </div>
                     
 

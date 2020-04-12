@@ -1,0 +1,32 @@
+.trial-button {
+  background-color: rgba(0, 0, 0, 0);
+  border: 0;
+  border-radius: 2px;
+  // -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1.6rem;
+  font-weight: 600;
+  font-family: inherit;
+  height: 40px;
+  line-height: 40px;
+  overflow: hidden;
+  outline-width: 2px;
+  padding: 0 12px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  // -webkit-transition-duration: 167ms;
+  transition-duration: 167ms;
+  // -webkit-transition-property: background-color,color,-webkit-box-shadow;
+  transition-property: background-color, color, -webkit-box-shadow;
+  // transition-property: background-color,box-shadow,color;
+  transition-property: background-color, box-shadow, color, -webkit-box-shadow;
+  // -webkit-transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  vertical-align: middle;
+  z-index: 0;
+  margin-left: 0;
+}
