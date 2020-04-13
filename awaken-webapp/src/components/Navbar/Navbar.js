@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 // import { Link } from 'react-router-dom';
 import "./Navbar.scss";
 import SearchBarHeader from '../SearchBar/SearchBarHeader';
-import { AiOutlineSearch } from "react-icons/ai";
 import Logo from "../../images/logo.png";
 import Dropdown from "../Dropdown/Dropdown";
 import Login from "../Login/Login";
@@ -47,36 +46,16 @@ class Navbar extends Component {
                     <div className="navbar-links-container flex">
                         <h2>LEARNING</h2>
                         
-                        
-
                     </div>
                     
                     <div className="navbar-links-container flex">
                         <Dropdown />
                         
-                        
-
                     </div>
-                    <div style={{ display: 'flex' }} className="navbar-left">
+                    <div className="navbar-left">
                         
                         <SearchBarHeader />
-                        <AiOutlineSearch
-                            size={39}
-                            style={
-                                {
-                                    color: 'blue',
-                                    border: '1px solid black', 
-                                    
-                                    
-                                }
-                            }
-
-
-
-                        />
-                        
-                        
-                    </div>
+                     </div>
                     
                     <div className="navbar-links-container flex">
                         
