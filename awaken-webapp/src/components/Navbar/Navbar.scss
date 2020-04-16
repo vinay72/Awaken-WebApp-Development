@@ -190,31 +190,3 @@
   }
 }
 
-// Outside because the element isn't mounted inside the 
-.child-list-container {
-  color: $theme-color;
-  background: #fff;
-  margin-top: 6px;
-  border-radius: 8px;
-  box-shadow: 0px 2px 10px 2px #0000005c;
-  user-select: none;
-}
-.child-list-item {
-  padding: 10px 16px;
-  font-weight: 500;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  cursor: pointer;
-  img {
-    width: 15px;
-  }
-  .child-image {
-    height: 32px;
-    width: 32px;
-    border-radius: 50%;
-    object-fit: cover;
-    margin-right: 16px;
-    background: #ddd;
-  }
-}
