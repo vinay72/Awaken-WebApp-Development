@@ -12,47 +12,102 @@
 }
 .course-list {
   display: flex;
-  color: #2977C9;
-  
+  color: #2977c9;
 }
-.explore-courses__tab-toggles{
-    width: 100vw;
+.explore-courses__tab-toggles {
+  width: 100vw;
 }
-ul, ol {
-    list-style: none;
+ul,
+ol {
+  list-style: none;
 }
 .label {
-    margin: 0;
-    border: 0;
-    font-size: 100%;
-    vertical-align: baseline;
-    background: transparent;
+  margin: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
 }
 .tab-bar {
-    // display: -webkit-box;
-    // display: -ms-flexbox;
-    display: flex;
-    overflow-x: auto;
-    white-space: nowrap;
-    border-bottom: 1px solid rgba(0,0,0,0.15);
+  // display: -webkit-box;
+  // display: -ms-flexbox;
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
 }
 .tab-toggle {
-    height: 48px;
-    color: rgba(0,0,0,0.6);
-    font-weight: 600;
+  height: 48px;
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: 600;
 }
-.tab-toggle-active, .tab-toggle:hover, .tab-toggle:focus {
-    color: #0073b1;
-    border-bottom: 3px solid #0073b1;
+.tab-toggle-active,
+.tab-toggle:hover,
+.tab-toggle:focus {
+  color: #0073b1;
+  border-bottom: 3px solid #0073b1;
 }
 .li {
-    text-align: left;
+  text-align: left;
 }
-.toggel-label{
-    display: block;
-    height: 100%;
-    padding: 12px 8px;
-    cursor: pointer;
-    color: inherit;
-    font-weight: inherit;
+.toggel-label {
+  display: block;
+  height: 100%;
+  padding: 12px 8px;
+  cursor: pointer;
+  color: inherit;
+  // color: #2977c9;
+  font-weight: inherit;
+  font-size: 20px;
+}
+label.toggel-label {
+  font: "16px-apple-system, system-ui";
+  color: rgba(0, 0, 0, 0.6);
+}
+.row {
+  display: flex;
+}
+.img-course {
+  width: 20%;
+  height: 50%;
+}
+.trend-course {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-left: 40px;
+  color: rgba(0, 0, 0, 0.6);
+  text-transform: uppercase;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.card-content {
+  font-size: 1.3rem;
+  // line-height: 1.33333;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.9);
+  margin-top: 8px;
+}
+.icon {
+  margin: 10px auto;
+  display: block;
+  cursor: pointer;
+  background: transparent;
+  font-size: 16px;
+  border-radius: 3px;
+  color: #2977c9;
+  border: 2px solid #2977c9;
+  padding: 0.25em 1em;
+  transition: 0.5s all ease-out;
+  &:hover {
+    background-color: #2977c9;
+    color: white;
+  }
+}
+.users-desc {
+  font-size: 1.4rem;
+  line-height: 1.42857;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.6);
+  margin-top: 4px;
+  text-align: center;
 }
