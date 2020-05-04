@@ -1,4 +1,4 @@
-@import "../../../public//assets/stylesheet/variables.scss";
+@import '../../assets/stylesheet/variables.scss';
 
 .navbar-container {
   position: fixed;
@@ -23,15 +23,7 @@
       align-items: center;
       margin-left: 20px;
 
-      // a {
-      //   margin-right: 0px;
-      //   height: 100%;
-      //   display: flex;
-      //   align-items: center;
-      //   justify-content: center;
-      //   position: relative;
-      //   color: rgba(62, 34, 114, 0.5);
-      // }
+      
 
       .navbar-link {
         // padding-right: 15px;

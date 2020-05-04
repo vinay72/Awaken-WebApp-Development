@@ -2,7 +2,7 @@ import React, { Component } from "react";
 // import { Link } from 'react-router-dom';
 import "./Navbar.scss";
 import SearchBarHeader from "../../common/SearchBar/SearchBarHeader";
-import Logo from "../../assets/images/logo.png";
+import Logo from "../../assets/image/logo.png";
 import Dropdown from "../../common/Dropdown/Dropdown";
 import Login from "../Login/Login";
 import FreeTrial from "../FreeTrial/FreeTrial";

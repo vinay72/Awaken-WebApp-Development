@@ -1,3 +1,4 @@
+@import "../../assets/stylesheet/variables.scss";
 .courses-container {
   display: flex;
   flex-direction: column;
@@ -111,3 +112,24 @@ label.toggel-label {
   margin-top: 4px;
   text-align: center;
 }
+.course-time {
+  font-size: 1.4rem;
+  line-height: 1.42857;
+  font-weight: 600;
+  text-align: center;
+}
+// .module-content {
+//   color: #000000;
+// }
+// .module-list{
+//   width: 100%;
+// }
+// .show-more-less{
+//   display: flex;
+//   flex-wrap: wrap;
+//   -webkit-box-orient: vertical;
+//   -webkit-box-direction: normal;
+//   flex-direction: column;
+//   margin-bottom: 15px;
+
+// }
