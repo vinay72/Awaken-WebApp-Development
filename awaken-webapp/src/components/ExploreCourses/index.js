@@ -28,6 +28,21 @@ export default class ExploreCourses extends Component {
         </div>
       );
     });
+    const modle1 = this.props.modules1.map((module1) => {
+      return (
+        <div key={module1.id} className="col-12 col-md-3 ">
+          <div className="show-more-less">
+            <ul className="module-list">
+              <li className="module-list-items">
+                <a href={module1.href} className="module-content">
+                  <h2 className="">{module1.name}</h2>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      );
+    });
     return (
       <div>
         <div className="courses-container">
@@ -37,6 +52,18 @@ export default class ExploreCourses extends Component {
           <h3 className="trend-course">Trending Courses</h3>
         </div>
         <div className="row">{cours1}</div>
+        <div className="section-content">
+          <div className="right-course">
+            <h3 className="title-heading">Find the right course for you</h3>
+            <p class="pill-subtitle">
+              Choose from over 15,000 courses, dozens added each week.
+            </p>
+          </div>
+          <div className="row1">
+            <h3 className="topics">Popular Topics</h3>
+            {modle1}
+          </div>
+        </div>
       </div>
     );
   }

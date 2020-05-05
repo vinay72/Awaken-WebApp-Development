@@ -29,42 +29,7 @@ ol {
   vertical-align: baseline;
   background: transparent;
 }
-.tab-bar {
-  // display: -webkit-box;
-  // display: -ms-flexbox;
-  display: flex;
-  overflow-x: auto;
-  white-space: nowrap;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
-}
-.tab-toggle {
-  height: 48px;
-  color: rgba(0, 0, 0, 0.6);
-  font-weight: 600;
-}
-.tab-toggle-active,
-.tab-toggle:hover,
-.tab-toggle:focus {
-  color: #0073b1;
-  border-bottom: 3px solid #0073b1;
-}
-.li {
-  text-align: left;
-}
-.toggel-label {
-  display: block;
-  height: 100%;
-  padding: 12px 8px;
-  cursor: pointer;
-  color: inherit;
-  // color: #2977c9;
-  font-weight: inherit;
-  font-size: 20px;
-}
-label.toggel-label {
-  font: "16px-apple-system, system-ui";
-  color: rgba(0, 0, 0, 0.6);
-}
+
 .row {
   display: flex;
 }
@@ -118,18 +83,73 @@ label.toggel-label {
   font-weight: 600;
   text-align: center;
 }
-// .module-content {
-//   color: #000000;
-// }
-// .module-list{
-//   width: 100%;
-// }
-// .show-more-less{
-//   display: flex;
-//   flex-wrap: wrap;
-//   -webkit-box-orient: vertical;
-//   -webkit-box-direction: normal;
-//   flex-direction: column;
-//   margin-bottom: 15px;
+.module-content {
+  color: #666666;
+}
 
-// }
+.module-list {
+  width: 100%;
+  box-shadow: none;
+  border-radius: 28px;
+  padding: 8px 20px;
+  margin: 0 6px 12px 0;
+  text-align: center;
+}
+.module-list-items {
+  min-height: 56px;
+  height: auto;
+  width: auto;
+  float: right;
+  background-color: rgba(0, 0, 0, 0.08);
+  // -webkit-box-shadow: none;
+  box-shadow: none;
+  border-radius: 28px;
+  padding: 8px 20px;
+  margin: 0 130px 12px 0;
+  text-align: center;
+  color: #666666;
+}
+.show-more-less {
+  margin-bottom: 15px;
+}
+.row1 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.topics {
+  font-size: 1.6rem;
+  // line-height: 1.5;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.6);
+  text-transform: uppercase;
+  line-height: 20px;
+}
+.section-content {
+  display: flex;
+}
+.title-heading {
+  font-size: 4.8rem;
+  // line-height: 1.16667;
+  // font-weight: 400;
+  color: rgba(0, 0, 0, 0.9);
+  font-family: sans-serif;
+  line-height: 60px;
+  padding: 20px 20px 20px 20px;
+  font-weight: 200;
+}
+.right-course {
+  flex-basis: 408px;
+  -webkit-box-flex: 1;
+  // -ms-flex-positive: 1;
+  flex-grow: 1;
+  justify-content: flex-start;
+  margin-right: 32px;
+  display: block;
+}
+.pill-subtitle {
+  font-size: 2rem;
+  line-height: 1.4;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.9);
+}

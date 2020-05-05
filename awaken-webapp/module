@@ -1,0 +1,18 @@
+const modle1 = this.props.modules1.map((module1) => {
+      return (
+        <div key={module1.id} className="col-12 col-md-3 ">
+          <div className="">
+            <ul className="module-list">
+              <li className="module-list-items">
+                <a
+                  href="https://www.linkedin.com/learning/topics/nasba-continuing-professional-education-cpe?upsellOrderOrigin=default_guest_learning&trk=homepage-learning"
+                  className="module-content"
+                >
+                  {module1.name}
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      );
+    });
