@@ -113,13 +113,39 @@ export default class ExploreCourses extends Component {
           </div>
         </div>
         <div className="row">
-          <h3 className="trend-course">TRENDING NASBA CONTINUING PROFESSIONSL EDUCATION (CPE) COURSES</h3>
+          <h3 className="trend-course">
+            TRENDING NASBA CONTINUING PROFESSIONSL EDUCATION (CPE) COURSES
+          </h3>
         </div>
         <div className="row">{cours2}</div>
         <div className="row">
           <h3 className="trend-course">TRENDING SPREADSHEETS COURSES</h3>
         </div>
         <div className="row">{cours3}</div>
+        <div className="skill">
+          <div className="skills-desc">
+            <img
+              className="title-img"
+              alt=""
+              src="https://static-exp1.licdn.com/sc/h/dobk0zdbnx1j8bw80qznl7kmg"
+            ></img>
+            <h2 className="item-heading">Prove your skills</h2>
+            <p className="subheading">
+              Earn certificates to add to your LinkedIn profile.
+            </p>
+          </div>
+          <div className="skills-desc">
+            <img
+              className="title-img"
+              alt=""
+              src="https://static-exp1.licdn.com/sc/h/4bqnl28qm2h3ho4cad1tuxemr"
+            ></img>
+            <h2 className="item-heading">Learn on your time</h2>
+            <p className="subheading">
+              Watch bite-sized videos or in-depth courses.
+            </p>
+          </div>
+        </div>
       </div>
     );
   }
