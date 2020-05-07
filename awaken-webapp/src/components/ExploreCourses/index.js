@@ -76,6 +76,54 @@ export default class ExploreCourses extends Component {
         </div>
       );
     });
+    const cours4 = this.props.courses4.map((course4) => {
+      return (
+        <div key={course4.id} className="col-12 col-md-3 ">
+          <div className="content">
+            <ul className="img-course">
+              <img src={course4.image} alt={course4.name}></img>
+            </ul>
+            <ul className="course-time">
+              <p>{course4.time}</p>
+            </ul>
+
+            <ul>
+              <button className="icon">Preview Course</button>
+            </ul>
+            <ul>
+              <h3 className="card-content">{course4.name}</h3>
+            </ul>
+            <ul className="users-desc">
+              <p>{course4.users}</p>
+            </ul>
+          </div>
+        </div>
+      );
+    });
+    const cours5 = this.props.courses5.map((course5) => {
+      return (
+        <div key={course5.id} className="col-12 col-md-3 ">
+          <div className="content">
+            <ul className="img-course">
+              <img src={course5.image} alt={course5.name}></img>
+            </ul>
+            <ul className="course-time">
+              <p>{course5.time}</p>
+            </ul>
+
+            <ul>
+              <button className="icon">Preview Course</button>
+            </ul>
+            <ul>
+              <h3 className="card-content">{course5.name}</h3>
+            </ul>
+            <ul className="users-desc">
+              <p>{course5.users}</p>
+            </ul>
+          </div>
+        </div>
+      );
+    });
     const modle1 = this.props.modules1.map((module1) => {
       return (
         <div key={module1.id} className="col-12 col-md-3 ">
@@ -131,7 +179,7 @@ export default class ExploreCourses extends Component {
             ></img>
             <h2 className="item-heading">Prove your skills</h2>
             <p className="subheading">
-              Earn certificates to add to your LinkedIn profile.
+              Earn certificates to add to your Immeasurable profile.
             </p>
           </div>
           <div className="skills-desc">
@@ -146,6 +194,16 @@ export default class ExploreCourses extends Component {
             </p>
           </div>
         </div>
+        <div className="row">
+          <h3 className="trend-course">TRENDING LEADERSHIP SKILLS COURSES</h3>
+        </div>
+        <div className="row">{cours4}</div>
+        <div className="row">
+          <h3 className="trend-course">
+            TRENDING Project Management Institute (PMI) COURSES
+          </h3>
+        </div>
+        <div className="row">{cours5}</div>
       </div>
     );
   }
