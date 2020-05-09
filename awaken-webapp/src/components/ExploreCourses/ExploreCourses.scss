@@ -178,3 +178,70 @@ ol {
   margin-left: 130px;
   margin-top: -30px;
 }
+.business-block {
+  display: flex;
+}
+.card-block {
+  min-width: 50%;
+  padding-right: 50px;
+  margin: 8px 0px 0px;
+}
+.drive-list {
+  margin-left: 210px;
+}
+.drive {
+  font-size: 2.5rem;
+
+  font-weight: 400;
+  // color: rgba(0, 0, 0, 0.9);
+  font-family: sans-serif;
+  color: #b24020;
+  line-height: 50px;
+}
+.business-subheading:link {
+  font-size: 2.8rem;
+  // line-height: 1.2;
+  font-weight: 200;
+  color: rgba(0, 0, 0, 0.9);
+  // font-weight: 200;
+  line-height: 50px;
+}
+.access-subheading {
+  font-size: 2.8rem;
+  margin-top: 8px;
+  color: rgba(0, 0, 0, 0.9);
+  font-weight: 200;
+  line-height: 50px;
+}
+.my-team {
+  background-color: transparent;
+  border: solid 1px rgba(0, 0, 0, 0.6);
+}
+.img-business {
+  width: 100%;
+  height: 100%;
+}
+.global-network {
+  width: 100%;
+  align-self: flex-start;
+  height: 720px;
+  background: url("https://static-exp1.licdn.com/sc/h/4bgnp9tzofxolqjpbwuqynf1y")
+    repeat-x bottom/auto 100%;
+  bottom: 0;
+}
+.btm-headline {
+  margin: 48px 10px 16px 30px;
+  font-size: 3.6rem;
+  font-family: sans-serif;
+  color: #2977c9;
+  font-weight: 100;
+  line-height: 70px;
+}
+.btm-subtitle {
+  padding-bottom: 40px;
+  font-size: 2rem;
+  margin: 0 40px 0 40px;
+  line-height: 1.4;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.9);
+}

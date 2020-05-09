@@ -10,7 +10,7 @@ export default class Banner extends Component {
           <div className="image">
             <img
               alt="Welcome to your professional community"
-              src="https://static-exp1.licdn.com/sc/h/1hbr6t0oqhf2avswaaruivxtl"
+              src="https://static-exp1.licdn.com/sc/h/4qv3jccdovqneoqkp1vo4o55z"
             ></img>
           </div>
           <div className="text">

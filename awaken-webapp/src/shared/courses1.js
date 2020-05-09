@@ -3,7 +3,7 @@ export const COURSES1 = [
     id: 0,
     name: "Excel 2016 Essential Training",
     image:
-      "https://media-exp1.licdn.com/dms/image/C4E0DAQF3aoEYzZiwmw/learning-public-crop_144_256/0?e=1588446000&v=beta&t=iUU_srooaB01Kppk71-zu2CvZTR6p7FpGI8GZLAiXhM",
+      "https://media-exp1.licdn.com/dms/image/C4E0DAQF3aoEYzZiwmw/learning-public-crop_144_256/0?e=1589061600&v=beta&t=7xH36fs7Ymigu6TCKlQHGjSfkXNLuKoE2RmGIog4kTA",
     time: "8h 53m",
     description: "",
     users: "616,687 viewers",
@@ -12,7 +12,7 @@ export const COURSES1 = [
     id: 1,
     name: "Excel Tips Weekly",
     image:
-    'https://media-exp1.licdn.com/dms/image/C4E0DAQHqUL3znABhxA/learning-public-crop_144_256/0?e=1588363200&v=beta&t=6MUKRJccXBw4jaKFd61sZZU0-VTLUNFJzdqDijRT7SA',
+      "https://media-exp1.licdn.com/dms/image/C4E0DAQHqUL3znABhxA/learning-public-crop_144_256/0?e=1588968000&v=beta&t=VfAARtT954NPtGYbi6sbyuVhZUJax98NvAnGRRchYhI",
     time: "29h 45m",
     description: "",
     users: "386,884 viewers",
@@ -21,7 +21,7 @@ export const COURSES1 = [
     id: 2,
     name: " Critical Thinking",
     image:
-      "https://media-exp1.licdn.com/dms/image/C4E0DAQFglfann7GpkQ/learning-public-crop_144_256/0?e=1588708800&v=beta&t=Z7iraYjrYDxFi5Iy_4w8BeXr5DyozYK888Pe5WV4vF0",
+      "https://media-exp1.licdn.com/dms/image/C4E0DAQFglfann7GpkQ/learning-public-crop_144_256/0?e=1589061600&v=beta&t=j6aZYcOhdNVCZtWDv2ycbqzHrkGrOIbyrLhLPXDc5Bk",
     time: "2h 15m",
     description: "",
     users: "196,749 viewers",

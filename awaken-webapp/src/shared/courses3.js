@@ -3,7 +3,7 @@ export const COURSES3 = [
       id: 0,
       name: "Excel Essential Training (Office 365)",
       image:
-        "https://media-exp1.licdn.com/dms/image/C4E0DAQHM3dq9WcSuUg/learning-public-crop_144_256/0?e=1588874400&v=beta&t=8x0LfubOXpWN0KpPJp6YCC52UgwMQ7pGGorPFVGCUPc",
+        "https://media-exp1.licdn.com/dms/image/C4E0DAQHM3dq9WcSuUg/learning-public-crop_144_256/0?e=1589144400&v=beta&t=ot6nZgw6WFqg-pMFqyhDacTYVHB15W5kD5AvK4--ox4",
       time: "2h 10m",
       description: "",
       users: "259,303 viewers",
@@ -21,7 +21,7 @@ export const COURSES3 = [
       id: 2,
       name: " Excel: Creating a Basic Dashboard",
       image:
-        "https://media-exp1.licdn.com/dms/image/C560DAQEIlEK2p4UNuw/learning-public-crop_144_256/0?e=1588874400&v=beta&t=FpHaHt8mY8Zs2bxdV9H387FH3Li9X0ZFMSOLLhFJs08",
+        "https://media-exp1.licdn.com/dms/image/C560DAQEIlEK2p4UNuw/learning-public-crop_144_256/0?e=1589061600&v=beta&t=6TZRkdZVaQmW2LkBaLTqtc3igFStA74sAhdhWhJz6xE",
       time: "1h 31m",
       description: "",
       users: "197,446 viewers",

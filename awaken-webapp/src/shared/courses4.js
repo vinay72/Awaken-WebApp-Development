@@ -12,7 +12,7 @@ export const COURSES4 = [
     id: 1,
     name: "Critical Thinking",
     image:
-      "https://media-exp1.licdn.com/dms/image/C4E0DAQFglfann7GpkQ/learning-public-crop_144_256/0?e=1588968000&v=beta&t=D-Ix6J_4aWol-5RJz5IZ71AWEwE2DJx6NFSGUnNO8ws",
+      "https://media-exp1.licdn.com/dms/image/C4E0DAQFglfann7GpkQ/learning-public-crop_144_256/0?e=1589061600&v=beta&t=j6aZYcOhdNVCZtWDv2ycbqzHrkGrOIbyrLhLPXDc5Bk",
     time: "1h 16m",
     description: "",
     users: "326,534 viewers",

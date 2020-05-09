@@ -204,6 +204,54 @@ export default class ExploreCourses extends Component {
           </h3>
         </div>
         <div className="row">{cours5}</div>
+        <div className="business-block">
+          <div className="card-block">
+            <ul className="drive-list">
+              <h2 className="drive">Drive business impact</h2>
+            </ul>
+            <ul>
+              <h3 className="access-subheading">
+                Get access to courses for your
+                <a
+                  href="https://learning.linkedin.com/for-entire-companies?src=li-lil-homepage&upsellOrderOrigin=default_guest_learning&trk=lil-b2b-hp_circle-module_business-upsell"
+                  className="business-subheading"
+                >
+                  business
+                </a>
+                ,
+                <a
+                  href="https://learning.linkedin.com/for-higher-education?src=li-lil-homepage&upsellOrderOrigin=default_guest_learning&trk=lil-b2b-hp_circle-module_higher-ed-upsell"
+                  className="business-subheading"
+                >
+                  higher education
+                </a>
+                , or
+                <a
+                  href="https://learning.linkedin.com/for-governments?src=li-lil-homepage&upsellOrderOrigin=default_guest_learning&trk=lil-b2b-hp_circle-module_govt-upsell"
+                  className="business-subheading"
+                >
+                  government
+                </a>
+                team
+              </h3>
+              <button className="icon">Buy for my team </button>
+            </ul>
+          </div>
+          <div>
+            <img
+              className="img-business"
+              src="https://static-exp1.licdn.com/sc/h/b2g5rhp2m6y2pse5a3ofvsdv8"
+              alt=""
+            ></img>
+          </div>
+        </div>
+        <div className="global-network">
+          <h2 class="btm-headline">
+            Learn from industry experts, and connect with a global network of
+            experience
+          </h2>
+          <p class="btm-subtitle">On your time. How and when you want.</p>
+        </div>
       </div>
     );
   }
